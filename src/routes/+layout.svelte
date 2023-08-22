@@ -7,8 +7,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 </style>
 
-<nav class="w-full flex items-center justify-between md:mt-6 md:px-6 fixed top-0">
-    <div class="flex justify-between md:justify-normal rounded-xl bg-white/75 backdrop-blur-lg border-slate-200 border p-1 shadow shadow-slate-100">
+<nav class="w-full flex items-center justify-between fixed top-0 md:mt-6 md:px-6">
+    <!-- sml screen menu -->
+    <div class="w-full px-2 pt-4 pb-2 flex justify-between bg-white/75 backdrop-blur-lg border-slate-200 border-b shadow shadow-slate-100 md:w-fit md:justify-normal md:rounded-xl md:border">
         <a class="font-medium text-slate-700 px-3 py-0.5 rounded-lg hover:bg-slate-50 hover:text-slate-900" 
             href="/">
             Tim Phillips, Designer
