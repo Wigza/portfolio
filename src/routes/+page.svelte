@@ -4,9 +4,20 @@
 </script>
 
 <style>
+    /* large screen images */
     .cs-hero {
         background-image: url($lib/assets/cs-hero-cover-lrge.png);
     }
+    .as-hero {
+        background-image: url($lib/assets/as-hero-cover-lrge.png);
+    }
+    /* small screen images */
+    @media (max-width: 640px) { 
+        .cs-hero {
+            background-image: url($lib/assets/cs-hero-cover-sml.png);
+        }
+    }
+
     .hero-wrap:hover .hero {
         transform:scale(1.025);
     }
@@ -21,15 +32,27 @@
         </div>
     </div>
     <div class="container mx-auto md:max-w-5xl">
-        <div class="hero-wrap group transition-all h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
-            <HeroInfo 
-                category="Product Design"
-                company="Carsales"
-                btnText="View Work"
-                btnRoute="/work/carsales/"
-                btnGrouped
-            />
-            <div class="hero cs-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+        <div class="grid gap-10">
+            <div class="hero-wrap group transition-all h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
+                <HeroInfo 
+                    category="Product Design"
+                    company="Carsales"
+                    btnText="View Work"
+                    btnRoute="/work/carsales/"
+                    btnGrouped
+                />
+                <div class="hero cs-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+            </div>
+            <div class="hero-wrap group transition-all h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
+                <HeroInfo 
+                    category="Product Design"
+                    company="Assembler"
+                    btnText="View Work"
+                    btnRoute="/work/assembler/"
+                    btnGrouped
+                />
+                <div class="hero as-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+            </div>
         </div>
     </div>
     <div class="container mx-auto md:max-w-3xl">
