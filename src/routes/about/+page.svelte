@@ -34,10 +34,10 @@
             </div>
             <div class="grid gap-3 md:col-span-3">
                 <h3 class="text-2xl font-medium">About</h3>
-                <p class="">My passion for design centres around the individual details, interactions and systems that work in unison to create cohesive experiences. I enjoy working on projects from scratch and also jumping into exisiting problem spaces.</p>
+                <p class="">My passion for design centres around the individual details, interactions and systems that work in unison to create cohesive experiences. I enjoy working on projects from scratch and also jumping into existing problem spaces.</p>
                 <p class="">I’m currently working as a product designer for <a class={linkStyles} href="">carsales</a>, within their digital retailing team exploring how to bring offline processes within the car buying journey, online within their platform.</p>
                 <p>I’ve previously worked at a start up, <a class={linkStyles} href="">Assembler</a>, a compliance focused saas platform, leading their product design and front-end development. Prior to that I worked as product designer within <a class={linkStyles} href="">PwC Australia’s</a> New Ventures unit, a digital business/technology incubator, working within the Automation Engine team.</p>
-                <div class="hidden grid gap-3 mt-2">
+                <div class="hidden gap-3 mt-2">
                     <p class="text-lg font-medium">Contact</p>
                     <div class="grid gap-4 md:flex items-center">
                         <a class={linkStyles} href="">Email</a>
