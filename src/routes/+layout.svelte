@@ -1,18 +1,27 @@
 <script>
     import "../app.css";
     import "../global.css";
-
+    import { page } from '$app/stores';
     import ThemeToggle from "../lib/ThemeToggle.svelte";
     import MenuToggle from "../lib/MenuToggle.svelte";
     import Menu from "../lib/Menu.svelte";
+    import resume from "../lib/assets/TimPhillips_Resume.pdf";
 
-    import resume from "../lib/assets/TimPhillips_Resume.pdf"
+    function toggleDropdown() {
+        let btn = document.getElementById("work-btn");
+        let dropdownMenu = btn.querySelector("#dropdown-menu");
 
+        btn.classList.toggle("active");
+        dropdownMenu.classList.toggle("hidden")
+
+    }
+
+    let currentRoute = $page.url.pathname;
     let year = new Date().getFullYear();
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 </style>
 
 <!-- global nav -->
@@ -24,15 +33,38 @@
                 href="/">
                 Tim Phillips, Designer
             </a>
+            <a class="transition-all hidden md:inline-flex text-slate-700 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
+                href="/about">
+                About
+            </a>
+            <button on:click={toggleDropdown} id="work-btn" class="transition-all cursor-pointer relative hidden md:inline-block text-slate-700 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50">
+                <div class="flex items-center space-x-1"> 
+                    <div>Work</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div id="dropdown-menu" class="hidden absolute inset-x-0 mt-4 py-2 overflow-hidden w-max rounded-xl bg-white dark:bg-slate-900/75 border border-slate-200 dark:border-slate-600 shadow shadow-slate-900/05 dark:shadow-slate-950">
+                    <a class:active="{currentRoute.includes("carsales")}" class="sublink transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
+                        href="/work/carsales/">
+                        Carsales
+                    </a>
+                    <a class:active="{currentRoute.includes("assembler")}" class="sublink transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
+                        href="/work/assembler/">
+                        Assembler
+                    </a>
+                    <a class:active="{currentRoute.includes("pwc")}" class="sublink transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
+                        href="/work/carsales/">
+                        PwC Australia
+                    </a>
+                </div>                 
+            </button>
             <MenuToggle />
         </div>
         <Menu />
     </div>
     <div class="hidden md:flex bg-white/20 border border-white/75 backdrop-blur-lg rounded-xl p-1 dark:bg-slate-900/75 dark:border-slate-900/75">
-        <a class="transition-all text-slate-900/50 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
-            href="/about">
-            About
-        </a>
+        
         <a class="transition-all text-slate-900/50 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" href="{resume}" target="_blank">Résumé</a>
         <a class="transition-all text-slate-900/50 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50 flex items-center" href="https://www.linkedin.com/in/tim-phillips-975239b9/" target="_blank">
             LinkedIn
