@@ -1,5 +1,11 @@
 <script>
     import Button from "../../../lib/Button.svelte";
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+
+    import testImage01 from "../../../lib/assets/as/slides/builder_slide_test.png";
+    import testImage02 from "../../../lib/assets/as/slides/dashboard_slide_test.png";
+
+    import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 </script>
 
 <style>
@@ -86,8 +92,21 @@
     </div>
     <div class="container mx-auto md:max-w-5xl">
         <div class="grid gap-10">
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
-                <div class="hero as-hero-01 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+            <div class="transition-all py-8 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+                <Splide aria-label="My Favorite Images">
+                    <SplideSlide>
+                        <div class="text-slate-500 text-center">
+                            <div class="text-sm pb-2">Landing page</div>
+                            <img class="w-4/5 mx-auto" src={testImage01} alt=""/>
+                        </div>
+                    </SplideSlide>
+                    <SplideSlide>
+                        <div class="text-slate-500 text-center">
+                            <div class="pb-2">Another page page</div>
+                            <img class="w-4/5 mx-auto" src={testImage02} alt=""/>
+                        </div>
+                    </SplideSlide>
+                </Splide>
             </div>
         </div>
     </div>

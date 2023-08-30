@@ -9,3 +9,8 @@ html {
         display: block;
     }
 }
+/* splide overdies */
+.splide__arrow--next {right:2em;}
+.splide__arrow--prev {left:2em;}
+.splide__pagination li button.splide__pagination__page.is-active {opacity: 1;transform: scale(1.35);}
+.splide__pagination li button.splide__pagination__page {opacity: .5;background: #475569;}
