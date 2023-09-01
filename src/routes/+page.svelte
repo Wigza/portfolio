@@ -73,7 +73,7 @@
                     category="Product Design"
                     company="PwC Australia"
                     btnText="View Work"
-                    btnRoute="/work/assembler/"
+                    btnRoute="/work/pwc/"
                     btnGrouped
                 />
                 <div class="hero pwc-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>

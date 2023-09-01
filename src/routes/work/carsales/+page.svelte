@@ -16,7 +16,7 @@
         <div class="pb-6 mb-8 border-b border-b-slate-100 dark:border-b-slate-800">
             <div>
                 <h1 class="text-4xl font-medium">Carsales</h1>
-                <h5 class="text-xl">Digital Retailing</h5>
+                <h5 class="text-xl text-slate-500">Digital Retailing</h5>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-6 gap-4">

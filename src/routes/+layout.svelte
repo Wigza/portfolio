@@ -54,7 +54,7 @@
                         Assembler
                     </a>
                     <a class:active="{currentRoute.includes("pwc")}" class="sublink transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
-                        href="/work/carsales/">
+                        href="/work/pwc/">
                         PwC Australia
                     </a>
                 </div>                 
