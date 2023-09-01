@@ -31,6 +31,9 @@
         .pwc-hero {
             background-image: url($lib/assets/pwc-hero-cover-sml.png);
         }
+        .hero-wrap .hero.small {
+            transform:scale(1.2);
+        }
     }
 
     .hero-wrap:hover .hero {
@@ -48,7 +51,7 @@
     </div>
     <div class="container mx-auto md:max-w-5xl">
         <div class="grid gap-10">
-            <div class="hero-wrap group transition-all h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
+            <div class="hero-wrap group transition-all h-[38rem] md:h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
                 <HeroInfo 
                     category="Product Design"
                     company="Carsales"
@@ -56,7 +59,7 @@
                     btnRoute="/work/carsales/"
                     btnGrouped
                 />
-                <div class="hero cs-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+                <div class="hero cs-hero transition-all w-full h-full absolute mt-12 md:mt-0 left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
             <div class="hero-wrap group transition-all h-[32rem] md:h-[48rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
                 <HeroInfo 
@@ -79,7 +82,7 @@
                 <div class="hero pwc-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
             <div class="grid gap-5 md:grid-cols-2">
-                <div class="hero-wrap group transition-all h-[24rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
+                <div class="hero-wrap group transition-all h-[20rem] md:h-[24rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
                     <HeroInfo 
                     category="Web Design"
                     company="Assembler"
@@ -87,9 +90,9 @@
                     btnRoute="/work/assembler/"
                     btnGrouped
                 />
-                <div class="hero assembler-web-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+                <div class="hero small assembler-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
                 </div>
-                <div class="hero-wrap group transition-all h-[24rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
+                <div class="hero-wrap group transition-all h-[20rem] md:h-[24rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
                     <HeroInfo 
                     category="Web Design"
                     company="Smiggle"
@@ -97,7 +100,7 @@
                     btnRoute="/work/assembler/"
                     btnGrouped
                 />
-                <div class="hero smiggle-web-hero transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+                <div class="hero small smiggle-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
                 </div>
             </div>
         </div>
