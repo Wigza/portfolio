@@ -1,5 +1,6 @@
 <script>
     import Button from "../../../lib/Button.svelte";
+    import InfoToggle from "../../../lib/InfoToggle.svelte";
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 
     import asDash01 from "../../../lib/assets/as/slides/dashboard_slide_01.png";
@@ -34,8 +35,8 @@
                 <h1 class="text-4xl font-medium">Assembler</h1>
             </div>
         </div>
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
+            <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-4">
+            <div class="col-span-full md:col-span-4">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">About</div>
@@ -92,6 +93,7 @@
                                 <li>Create their branding</li>
                             </ul>
                             <div class="mt-4"></div>
+                            <InfoToggle />
                             <Button text='View Website' route='https://www.carsales.com.au/' textSize='sm' />
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 <script>
     import Button from "../../../lib/Button.svelte";
+    import InfoToggle from "../../../lib/InfoToggle.svelte";
 </script>
 
 <style>
@@ -19,8 +20,8 @@
                 <h5 class="text-xl text-slate-500">Digital Retailing</h5>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
-            <div class="col-span-2 order-last md:order-first">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
+            <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
@@ -53,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-4">
+            <div class="col-span-full md:col-span-4">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">About</div>
@@ -65,6 +66,7 @@
                             <p>I joined Carsales in November 2021, into their newly formed SELECT product team (now Digital Retailing). Our SELECT’s vision was to enable users to buy used cars completely online.</p>
                             <p>My time within this team has given me the opportunity to work across many aspects of Carsales consumer facing product ecosystem. </p>
                             <div class="hidden md:block md:mt-4"></div>
+                            <InfoToggle />
                             <Button text='View Website' route='https://www.carsales.com.au/' textSize='sm' />
                         </div>
                     </div>

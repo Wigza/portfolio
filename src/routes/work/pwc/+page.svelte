@@ -1,5 +1,6 @@
 <script>
     import Button from "../../../lib/Button.svelte";
+    import InfoToggle from "../../../lib/InfoToggle.svelte";
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     let linkStyles = 'underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400';
 
@@ -19,8 +20,8 @@
                 <h5 class="text-xl text-slate-500">New Ventures</h5>
             </div>
         </div>
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
+            <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
@@ -60,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-4">
+            <div class="col-span-full md:col-span-4">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">About</div>
@@ -72,6 +73,7 @@
                             <p>I was involved with the <a class="{linkStyles}" href="https://www.pwc.com.au/services/new-ventures/pwc-automation-engine.pdf" target="_blank">Automation Engine</a> (AE) product (which would later become <a class="{linkStyles}" href="/work/assembler/">Assembler</a>), a platform that enabled internal teams to automate complex, often manual processes/tasks and transform them into web applications.</p>
                             <p>I worked as the product designer and supported the engineering team with front end development, I created the design system for both the AE platform and the applications that we built on top of AE.</p>
                             <div class="mt-4"></div>
+                            <InfoToggle />
                             <Button text='View Website' route='https://www.pwc.com/gx/en/about/new-ventures.html' textSize='sm' />
                         </div>
                     </div>

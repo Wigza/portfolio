@@ -4,6 +4,7 @@
     import { page } from '$app/stores';
     import ThemeToggle from "../lib/ThemeToggle.svelte";
     import MenuToggle from "../lib/MenuToggle.svelte";
+    // import GradientBlur from "../lib/GradientBlur.svelte";
     import Menu from "../lib/Menu.svelte";
     import resume from "../lib/assets/TimPhillips_Resume.pdf";
 

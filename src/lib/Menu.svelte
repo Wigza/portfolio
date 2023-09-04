@@ -17,6 +17,7 @@
     <a on:click={toggle} class="mx-3 flex text-lg text-slate-700 dark:text-slate-300" href="/work/carsales/">Carsales</a>
     <a on:click={toggle} class="mx-3 flex text-lg text-slate-700 dark:text-slate-300" href="/work/assembler/">Assembler</a>
     <a on:click={toggle} class="mx-3 flex text-lg text-slate-700 dark:text-slate-300" href="/work/pwc/">PwC Australia</a>
+    <div class="h-px mx-3 bg-slate-200"></div>
     <a on:click={toggle} class="mx-3 flex text-lg text-slate-700 dark:text-slate-300" href="/" >Resume</a>
     <a on:click={toggle} class="mx-3 flex text-lg text-slate-700 dark:text-slate-300" href="https://www.linkedin.com/in/tim-phillips-975239b9/" target="_blank" >LinkedIn</a>
     <ThemeToggle
