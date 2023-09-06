@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.highlight {
+    background-image: linear-gradient(to bottom, #f8fafc, #f0fdfa);
+}
+.dark .highlight {
+    background-image: linear-gradient(to bottom, #334155, #0f766e);
+}
+.highlight.carsalesBG {
+    background-image: linear-gradient(to bottom, #64C6FF, #1C75A8);
+}
+.highlight.carsalesBG .trans-img.csBG {
+    display: block;
+}
+.highlight.assemblerBG {
+    background-image: linear-gradient(to bottom, #1e40af, #38bdf8);
+}
+.highlight.assemblerBG .trans-img.asBG {
+    display: block;
+}
+.highlight.pwcBG {
+    background-image: linear-gradient(to bottom, #ea580c, #fde047);
+}
+.highlight.pwcBG .trans-img.pwcBG {
+    display: block;
+}
+
 @layer components {
     #work-btn.active {
         @apply bg-slate-500/10 text-slate-900
