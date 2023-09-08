@@ -90,17 +90,17 @@
                     btnRoute="/work/assembler/"
                     btnGrouped
                 />
-                <div class="hero small assembler-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
+                <div class="hero small assembler-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 bottom-[-.5rem] md:top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
                 </div>
                 <div class="hero-wrap group transition-all h-[20rem] md:h-[24rem] p-4 overflow-hidden bg-slate-50 hover:bg-slate-100 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:hover:bg-slate-700 dark:border-slate-600/50">
                     <HeroInfo 
                     category="Web Design"
                     company="Smiggle"
                     btnText="View Work"
-                    btnRoute="/work/assembler/"
+                    btnRoute="/work/smiggle/"
                     btnGrouped
                 />
-                <div class="hero small smiggle-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
+                <div class="hero small smiggle-web-hero transition-all w-full h-full absolute ml-8 md:m-0 left-0 bottom-[-.5rem] md:top-0 bg-no-repeat bg-contain md:bg-cover bg-center"></div>
                 </div>
             </div>
         </div>

@@ -8,17 +8,16 @@
     import Menu from "../lib/Menu.svelte";
     import resume from "../lib/assets/TimPhillips_Resume.pdf";
 
-    import pwcBG from "../lib/assets/dropdown/pwc-bg-img.png"
-    import asBG from "../lib/assets/dropdown/as-bg-img.png"
-    import csBG from "../lib/assets/dropdown/cs-bg-img.png"
+    import pwcBG from "../lib/assets/dropdown/pwc-bg-img.png";
+    import asBG from "../lib/assets/dropdown/as-bg-img.png";
+    import csBG from "../lib/assets/dropdown/cs-bg-img.png";
 
     function toggleDropdown() {
         let btn = document.getElementById("work-btn");
         let dropdownMenu = btn.querySelector("#dropdown-menu");
 
         btn.classList.toggle("active");
-        dropdownMenu.classList.toggle("hidden")
-
+        dropdownMenu.classList.toggle("hidden");
     }
  
     function bgChange() {
