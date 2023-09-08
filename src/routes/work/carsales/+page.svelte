@@ -14,7 +14,7 @@
 
 <div class="mt-32 px-5 grid gap-20">
     <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
-        <div class="pb-6 mb-8 border-b border-b-slate-100 dark:border-b-slate-800">
+        <div class="pb-6 mb-8 border-b border-b-slate-200 dark:border-b-slate-800">
             <div>
                 <h1 class="text-4xl font-medium">Carsales</h1>
                 <h5 class="text-xl text-slate-500">Digital Retailing</h5>
@@ -93,16 +93,6 @@
             </div>
             <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-06 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
-        <div>
-            <p class="text-lg font-medium">Thanks for making it this far!</p>
-            <p>If you're interested in viewing of some of my other work, check out the links below.</p>
-            <div class="mt-4">
-                <Button text='Assembler' route='/work/assembler/' textSize='sm' />
-                <Button text='PwC Australia' route='/work/assembler/' textSize='sm' />
             </div>
         </div>
     </div>

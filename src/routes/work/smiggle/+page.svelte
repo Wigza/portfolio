@@ -16,7 +16,7 @@
 
 <div class="mt-32 px-5 grid gap-20">
     <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
-        <div class="pb-6 mb-8 border-b border-b-slate-100 dark:border-b-slate-800">
+        <div class="pb-6 mb-8 border-b border-b-slate-200 dark:border-b-slate-800">
             <div>
                 <h1 class="text-4xl font-medium">Smiggle</h1>
                 <h5 class="text-xl text-slate-500">Web design team</h5>
@@ -65,11 +65,11 @@
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">Context</div>
                         <div class="space-y-3">
-                            <p>I joined Carsales in November 2021, into their newly formed SELECT product team (now Digital Retailing). Our SELECT’s vision was to enable users to buy used cars completely online.</p>
-                            <p>My time within this team has given me the opportunity to work across many aspects of Carsales consumer facing product ecosystem. </p>
+                            <p>I worked as a Web Designer / Front End Developer on the Smiggle brand for just over 18 months. </p>
+                            <p>During my time there I had the opportunity to work on countless digital marketing campaigns across their entire international market base (Australia, New Zealand, UK, Ireland and Asia).</p>
                             <div class="hidden md:block md:mt-4"></div>
                             <InfoToggle />
-                            <Button text='View Website' route='https://www.carsales.com.au/' textSize='sm' />
+                            <Button text='View Website' route='https://smiggle.jgl.com.au/' textSize='sm' />
                         </div>
                     </div>
                 </div>
@@ -79,13 +79,15 @@
     <div class="space-y-10">
         <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
             <div class="space-y-2">
-                <h3 class="text-xl font-medium">Automation Engine Platofrm</h3>
-                <p class="text-slate-500">Dashboard is the DevOps management platform that simplifies the process of setting up web applications, managing the environments they exist within and the maintenance involved with each of the resources within these environments such as databases, user lists and authentication and servers.</p>
+                <h3 class="text-xl font-medium">eCommerce site redesign</h3>
+                <p class="text-slate-500">All of the Just Group’s eCommerce sites at the time were split across legacy desktop/mobile sites, rather than a single responsive framework. This created a duplication of work to create/design and build web content across the entire eCommerce team, including Smiggle.</p>
+                <p class="text-slate-500">The eCommerce team was working on project to re-platform their tech stack to allow for a responsive, single site for each of the Just Groups brands. As a part of this initiative, the web design team were tasked with re-designing the eCommerce site, which had grown out of date over the years. </p>
+                <p class="text-slate-500">I had the opportunity to work on an early concept for the Smiggle site, focusing on some of the core pages: home, product category and product detail.</p>
             </div>
         </div>
         <div class="container mx-auto md:max-w-5xl">
             <div class="grid gap-10">
-                <div class="transition-all py-8 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+                <div class="custom transition-all py-8 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                     <Splide aria-label="My Favorite Images">
                         <SplideSlide>
                             <div class="text-slate-500 text-center cursor-grab">

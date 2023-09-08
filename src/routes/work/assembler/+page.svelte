@@ -30,7 +30,7 @@
 
 <div class="mt-32 px-5 grid gap-20">
     <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
-        <div class="pb-6 mb-8 border-b border-b-slate-100 dark:border-b-slate-800">
+        <div class="pb-6 mb-8 border-b border-b-slate-200 dark:border-b-slate-800">
             <div>
                 <h1 class="text-4xl font-medium">Assembler</h1>
             </div>
