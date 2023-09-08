@@ -26,6 +26,12 @@
 .highlight.pwcBG .trans-img.pwcBG {
     display: block;
 }
+.highlight.smiggleBG {
+    background-image: linear-gradient(to bottom, #F22449, #FFD32A, #3F59DA);
+}
+.highlight.smiggleBG .trans-img.smgBG {
+    display: block;
+}
 
 @layer components {
     #work-btn.active {

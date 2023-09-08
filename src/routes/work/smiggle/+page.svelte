@@ -1,12 +1,18 @@
 <script>
     import Button from "../../../lib/Button.svelte";
     import InfoToggle from "../../../lib/InfoToggle.svelte";
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+    import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+    import smig01 from "../../../lib/assets/smig/slides/smig_slide_01.png";
+    import smig02 from "../../../lib/assets/smig/slides/smig_slide_02.png";
+    import smig03 from "../../../lib/assets/smig/slides/smig_slide_03.png";
+    import smig04 from "../../../lib/assets/smig/slides/smig_slide_04.png";
+    import smig05 from "../../../lib/assets/smig/slides/smig_slide_05.png";
+
     let linkStyles = 'underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400';
 </script>
 
-<style>
-    /* .cs-hero-01 {background-image: url($lib/assets/cs/cs-dealbuilder-01.png);} */
-</style>
 
 <div class="mt-32 px-5 grid gap-20">
     <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
@@ -70,11 +76,50 @@
             </div>
         </div>
     </div>
+    <div class="space-y-10">
+        <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
+            <div class="space-y-2">
+                <h3 class="text-xl font-medium">Automation Engine Platofrm</h3>
+                <p class="text-slate-500">Dashboard is the DevOps management platform that simplifies the process of setting up web applications, managing the environments they exist within and the maintenance involved with each of the resources within these environments such as databases, user lists and authentication and servers.</p>
+            </div>
+        </div>
         <div class="container mx-auto md:max-w-5xl">
             <div class="grid gap-10">
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
-                <div class="hero cs-hero-01 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
+                <div class="transition-all py-8 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+                    <Splide aria-label="My Favorite Images">
+                        <SplideSlide>
+                            <div class="text-slate-500 text-center cursor-grab">
+                                <div class="text-sm pb-2">Smiggle category page</div>
+                                <img class="w-[95%] md:w-11/12 mx-auto" src={smig01} alt=""/>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div class="text-slate-500 text-center cursor-grab">
+                                <div class="text-sm pb-2">Smiggle category page</div>
+                                <img class="w-[95%] md:w-11/12 mx-auto" src={smig02} alt=""/>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div class="text-slate-500 text-center cursor-grab">
+                                <div class="text-sm pb-2">Smiggle product page</div>
+                                <img class="w-[95%] md:w-11/12 mx-auto" src={smig03} alt=""/>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div class="text-slate-500 text-center cursor-grab">
+                                <div class="text-sm pb-2">Smiggle home page</div>
+                                <img class="w-[95%] md:w-11/12 mx-auto" src={smig04} alt=""/>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div class="text-slate-500 text-center cursor-grab">
+                                <div class="text-sm pb-2">Smiggle home page</div>
+                                <img class="w-[95%] md:w-11/12 mx-auto" src={smig05} alt=""/>
+                            </div>
+                        </SplideSlide>
+                    </Splide>
+                </div>
             </div>
         </div>
     </div>
-</div> 
+</div>

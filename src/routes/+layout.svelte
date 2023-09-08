@@ -11,6 +11,7 @@
     import pwcBG from "../lib/assets/dropdown/pwc-bg-img.png";
     import asBG from "../lib/assets/dropdown/as-bg-img.png";
     import csBG from "../lib/assets/dropdown/cs-bg-img.png";
+    import smgBG from "../lib/assets/dropdown/smg-bg-img.png";
 
     function toggleDropdown() {
         let btn = document.getElementById("work-btn");
@@ -32,7 +33,10 @@
             bgCol.classList.toggle('pwcBG')
         } else if (menuItem.classList.contains('as')) {
             // assembler
-            bgCol.classList.toggle('assemblerBG')
+            bgCol.classList.toggle('assemblerBG')   
+        } else if (menuItem.classList.contains('smg')) {
+            // smiggle
+            bgCol.classList.toggle('smiggleBG')
         } else {
 
         }
@@ -69,9 +73,10 @@
                 <div id="dropdown-menu" class="hidden absolute inset-x-0 mt-4 overflow-hidden min-w-[14rem] rounded-xl bg-white dark:bg-slate-900/75 border border-slate-200 dark:border-slate-600 shadow shadow-slate-900/05 dark:shadow-slate-950">
                     <div class="grid grid-cols-5">
                         <div id="highlight-col" class="highlight h-full overflow-hidden col-span-1 transition-all relative">
-                            <img src="{csBG}" class="hidden csBG trans-img absolute mix-blend-multiply top-0 right-0" alt="pwc">
-                            <img src="{asBG}" class="hidden asBG trans-img absolute mix-blend-multiply top-0 right-0" alt="pwc">
-                            <img src="{pwcBG}" class="hidden pwcBG trans-img absolute mix-blend-multiply top-0 right-0" alt="pwc">
+                            <img src="{csBG}" class="hidden csBG trans-img absolute mix-blend-multiply bottom-0 right-0" alt="pwc">
+                            <img src="{asBG}" class="hidden asBG trans-img absolute mix-blend-multiply bottom-0 right-0" alt="pwc">
+                            <img src="{pwcBG}" class="hidden pwcBG trans-img absolute mix-blend-multiply bottom-0 right-0" alt="pwc">
+                            <img src="{smgBG}" class="hidden smgBG trans-img absolute mix-blend-multiply bottom-0 right-0" alt="pwc">
                             <div class="absolute h-full w-px bg-slate-900/20 top-0 right-0"></div>
                         </div>
                         <div class="p-2 space-y-px col-span-4">
@@ -86,6 +91,10 @@
                             <a on:mouseout={bgChange} on:mouseover={bgChange} class:active="{currentRoute.includes("pwc")}" class="sublink pwc rounded-md transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
                                 href="/work/pwc/">
                                 PwC Australia
+                            </a>
+                            <a on:mouseout={bgChange} on:mouseover={bgChange} class:active="{currentRoute.includes("smiggle")}" class="sublink smg rounded-md transition-all flex text-slate-500 px-3 py-1 hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" 
+                                href="/work/smiggle/">
+                                Smiggle
                             </a>
                         </div>
                     </div>
