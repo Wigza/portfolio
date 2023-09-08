@@ -2,6 +2,7 @@
     import Button from "../../../lib/Button.svelte";
     import InfoToggle from "../../../lib/InfoToggle.svelte";
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+    import MoreWork from "../../../lib/MoreWork.svelte";
 
     import asDash01 from "../../../lib/assets/as/slides/dashboard_slide_01.png";
     import asDash02 from "../../../lib/assets/as/slides/dashboard_slide_02.png";
@@ -268,4 +269,5 @@
             </div>
         </div>
     </div>
+    <MoreWork />
 </div>

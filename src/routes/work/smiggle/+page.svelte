@@ -2,6 +2,7 @@
     import Button from "../../../lib/Button.svelte";
     import InfoToggle from "../../../lib/InfoToggle.svelte";
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+    import MoreWork from "../../../lib/MoreWork.svelte";
     import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
     import smig01 from "../../../lib/assets/smig/slides/smig_slide_01.png";
@@ -123,5 +124,6 @@
                 </div>
             </div>
         </div>
+        <MoreWork />
     </div>
 </div>

@@ -1,6 +1,7 @@
 <script>
     import Button from "../../../lib/Button.svelte";
     import InfoToggle from "../../../lib/InfoToggle.svelte";
+    import MoreWork from "../../../lib/MoreWork.svelte";
 </script>
 
 <style>
@@ -96,4 +97,5 @@
             </div>
         </div>
     </div>
+    <MoreWork />
 </div> 

@@ -1,6 +1,7 @@
 <script>
     import Button from "../../../lib/Button.svelte";
     import InfoToggle from "../../../lib/InfoToggle.svelte";
+    import MoreWork from "../../../lib/MoreWork.svelte";
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     let linkStyles = 'underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400';
 
@@ -120,5 +121,6 @@
                 </div>
             </div>
         </div>
+        <MoreWork />
     </div>
 </div>
