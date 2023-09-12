@@ -38,7 +38,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
             <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
-                <div class="grid gap-6">
+                <div class="grid gap-6 h-fit">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
                         <div class="">Product Designer</div>
@@ -46,20 +46,10 @@
                     <div class="space-y-2">
                         <div class="text-slate-400 text-sm uppercase">Team</div>
                         <div>
-                            <div class="">Thomas Broomfield</div>
-                            <div class="text-slate-400 text-sm italic">CTO</div>
-                        </div>
-                        <div>
-                            <div class="">Daintree Peters</div>
-                            <div class="text-slate-400 text-sm italic">CEO</div>
-                        </div>
-                        <div>
-                            <div class="">Mark Rebeiro</div>
-                            <div class="text-slate-400 text-sm italic">Solutions Lead</div>
-                        </div>
-                        <div>
-                            <div class="">Megan Linton</div>
-                            <div class="text-slate-400 text-sm italic">Product Lead</div>
+                            <div class="">CTO</div>
+                            <div class="">CEO</div>
+                            <div class="">Solutions Lead</div>
+                            <div class="">Client Operations Lead</div>
                         </div>
                     </div>
                     <div>
@@ -95,7 +85,7 @@
                             </ul>
                             <div class="mt-4"></div>
                             <InfoToggle />
-                            <Button text='View Website' route='https://www.carsales.com.au/' textSize='sm' />
+                            <Button text='View Website' route='https://assembler.app/' textSize='sm' />
                         </div>
                     </div>
                 </div>

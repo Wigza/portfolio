@@ -104,8 +104,7 @@
         </div>
         <Menu />
     </div>
-    <div class="hidden md:flex bg-white/20 border border-white/75 backdrop-blur-lg rounded-xl p-1 dark:bg-slate-900/75 dark:border-slate-900/75">
-        
+    <div class="hidden md:flex bg-white/20 border border-white/75 backdrop-blur-lg rounded-xl p-1 dark:bg-slate-900/75 dark:border-slate-900/75">        
         <a class="transition-all text-slate-900/50 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50" href="{resume}" target="_blank">Résumé</a>
         <a class="transition-all cursor-alias text-slate-900/50 px-3 py-0.5 rounded-lg hover:bg-slate-500/10 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-white/[.05] dark:hover:text-slate-50 flex items-center" href="https://www.linkedin.com/in/tim-phillips-975239b9/" target="_blank">
             LinkedIn

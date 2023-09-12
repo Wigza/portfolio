@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
-            <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
+            <div id="info-col" class="h-fit md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
@@ -33,16 +33,16 @@
                     <div class="space-y-2">
                         <div class="text-slate-400 text-sm uppercase">Team</div>
                         <div>
-                            <div class="">Ahmed Khalid</div>
-                            <div class="text-slate-400 text-sm italic">Senior Product Manager</div>
+                            <div class="">eCommerce Marketer</div>
+                            <!-- <div class="text-slate-400 text-sm italic">Senior Product Manager</div> -->
                         </div>
                         <div>
-                            <div class="">Peter O'Dwyer</div>
-                            <div class="text-slate-400 text-sm italic">Lead Product Designer</div>
+                            <div class="">Head of Marketing</div>
+                            <!-- <div class="text-slate-400 text-sm italic">Lead Product Designer</div> -->
                         </div>
                         <div>
-                            <div class="">Brendan Hall</div>
-                            <div class="text-slate-400 text-sm italic">GM eCommerce</div>
+                            <div class="">Senior Web Designer</div>
+                            <!-- <div class="text-slate-400 text-sm italic">GM eCommerce</div> -->
                         </div>
                     </div>
                     <div>

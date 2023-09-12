@@ -41,10 +41,10 @@
     }
 </style>
 
-<div class="mt-32 px-5 grid gap-20">
+<div class="mt-40 px-5 grid gap-24">
     <div class="container mx-auto md:max-w-3xl">
-        <div class="text-2xl text-slate-700 leading-normal md:leading-relaxed grid gap-3 md:text-xl dark:text-slate-200">
-            <p class="">Tim Phillips is a designer <span>✏️</span> & front-end developer <span>👨‍💻</span> from Melbourne.</p>
+        <div class="text-xl text-slate-700 leading-normal md:leading-relaxed grid gap-3 md:text-2xl dark:text-slate-200">
+            <p class="text-2xl md:text-3xl">Tim Phillips is a designer from Melbourne.</p>
             <p class="">He’s currently working as a product designer at <a class="underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400" href="">carsales</a>, Australia’s largest online automotive marketplace.</p>
             <p class="">Find out more about Tim <a class="underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400" href="/about">here</a>.</p>
         </div>

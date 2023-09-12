@@ -23,7 +23,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-4">
             <div id="info-col" class="md:grid hidden col-span-full md:col-span-2 order-last md:order-first">
-                <div class="grid gap-6">
+                <div class="grid gap-6 h-fit">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">My role</div>
                         <div class="">Lead product designer</div>
@@ -31,24 +31,16 @@
                     <div class="space-y-2">
                         <div class="text-slate-400 text-sm uppercase">Team</div>
                         <div>
-                            <div class="">Thomas Broomfield</div>
-                            <div class="text-slate-400 text-sm italic">Senior manager</div>
+                            <div class="">Director</div>
+                            <!-- <div class="text-slate-400 text-sm italic">Director</div> -->
                         </div>
                         <div>
-                            <div class="">Mark Rebeiro</div>
-                            <div class="text-slate-400 text-sm italic">Senior Manager</div>
+                            <div class="">Senior Manager</div>
+                            <!-- <div class="text-slate-400 text-sm italic">Senior manager</div> -->
                         </div>
                         <div>
-                            <div class="">Megan Linton</div>
-                            <div class="text-slate-400 text-sm italic">Senior Manager</div>
-                        </div>
-                        <div>
-                            <div class="">Bridget Connally</div>
-                            <div class="text-slate-400 text-sm italic">Senior Consultant</div>
-                        </div>
-                        <div>
-                            <div class="">Daintree Peters</div>
-                            <div class="text-slate-400 text-sm italic">Director</div>
+                            <div class="">Senior Consultant</div>
+                            <!-- <div class="text-slate-400 text-sm italic">Senior Consultant</div> -->
                         </div>
                     </div>
                     <div>
