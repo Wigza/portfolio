@@ -73,7 +73,7 @@
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">Context</div>
                         <div class="space-y-3">
-                            <p>I joined carsales in November 2021, into their newly formed <a class="{linkStyles}" href="https://www.carsales.com.au/carsales-select/" target="_blank">SELECT</a> product team (now Digital Retailing). Our vision at the time was to ‘enable users to buy used cars completely online’.</p>
+                            <p>I joined carsales in November 2021, into their newly formed <a class="{linkStyles}" href="https://www.carsales.com.au/carsales-select/" target="_blank" rel=“noreferrer”>SELECT</a> product team (now Digital Retailing). Our vision at the time was to ‘enable users to buy used cars completely online’.</p>
                             <p>My time within this team has given me the opportunity to work across many aspects of carsales consumer facing product ecosystem.</p>
                             <p>This has included re-designing elements of the listing detail page, to enable consumers to complete more aspects of the car enquiry process online, through carsales’ platform. Designing an enriched enquiry experience for SELECT vehicles. Creating carsales’ first online finance application process. Most recently I’ve been exploring how to give consumers the ability to book test drives on dealer listings.</p>
                             <div class="hidden md:block md:mt-4"></div>
