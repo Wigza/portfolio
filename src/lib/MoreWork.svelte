@@ -10,7 +10,7 @@
             <h3 class="text-lg font-medium text-slate-800">Thanks for viewing this page :)</h3>
             <p class="text-slate-600">If you’re interested in seeing more examples of my work, find them below.</p>
         </div>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {#if !currentRoute.includes("carsales")}
                 <Button 
                     text='Carsales' 

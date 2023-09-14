@@ -238,19 +238,19 @@
                     <Splide aria-label="My Favorite Images">
                         <SplideSlide>
                             <div class="text-slate-500 text-center cursor-grab">
-                                <div class="text-sm pb-2">Application landing page</div>
+                                <div class="text-sm pb-2">Home page</div>
                                 <img class="w-[95%] md:w-11/12 mx-auto" src={asWeb01} alt=""/>
                             </div>
                         </SplideSlide>
                         <SplideSlide>
                             <div class="text-slate-500 text-center cursor-grab">
-                                <div class="pb-2">Dashboard overview</div>
+                                <div class="pb-2">Home page</div>
                                 <img class="w-[95%] md:w-11/12 mx-auto" src={asWeb02} alt=""/>
                             </div>
                         </SplideSlide>
                         <SplideSlide>
                             <div class="text-slate-500 text-center cursor-grab">
-                                <div class="pb-2">Form and worklfow</div>
+                                <div class="pb-2">Home page</div>
                                 <img class="w-[95%] md:w-11/12 mx-auto" src={asWeb03} alt=""/>
                             </div>
                         </SplideSlide>

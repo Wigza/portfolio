@@ -77,8 +77,8 @@
     <div class="space-y-10">
         <div class="container mx-auto md:max-w-3xl text-slate-700 dark:text-slate-200">
             <div class="space-y-2">
-                <h3 class="text-xl font-medium">Automation Engine Platofrm</h3>
-                <p class="text-slate-500">Dashboard is the DevOps management platform that simplifies the process of setting up web applications, managing the environments they exist within and the maintenance involved with each of the resources within these environments such as databases, user lists and authentication and servers.</p>
+                <h3 class="text-xl font-medium">Automation Engine platform</h3>
+                <p class="text-slate-500">Below are some examples of some of the core screens in the AE platform.</p>
             </div>
         </div>
         <div class="container mx-auto md:max-w-5xl">

@@ -4,17 +4,6 @@ html {
 #responsive-menu {
     display: none;
 }
-@media (max-width: 640px) { 
-    div#responsive-menu.active {
-        display: block;
-    }
-    .splide__arrow--prev, .splide__arrow--next {
-        display: none;
-    }
-    .splide__pagination {
-        bottom: -0.5em;
-    }
-}
 /* splide overdies */
 .custom .splide__pagination {
         bottom: -0.5em;
@@ -26,3 +15,15 @@ button.splide__arrow--next svg, button.splide__arrow--prev svg {
 }
 .splide__pagination li button.splide__pagination__page.is-active {opacity: 1;transform: scale(1.35);}
 .splide__pagination li button.splide__pagination__page {opacity: .5;background: #475569;}
+
+@media (max-width: 640px) { 
+    div#responsive-menu.active {
+        display: block;
+    }
+    .splide__arrow--prev, .splide__arrow--next {
+        display: none !important;
+    }
+    .splide__pagination {
+        bottom: -0.5em;
+    }
+}
