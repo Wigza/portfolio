@@ -68,7 +68,7 @@
                 <div class="grid gap-6">
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">About</div>
-                        <p>Carsales is Australia’s largest online automative marketplace (Cars, Motorbikes, Boats etc) that attracts millions of daily users. </p>
+                        <p>Carsales is Australia’s largest online automotive marketplace (Cars, Motorbikes, Boats etc) that attracts millions of daily users. </p>
                     </div>
                     <div>
                         <div class="text-slate-400 text-sm uppercase mb-2">Context</div>

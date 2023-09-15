@@ -20,6 +20,41 @@
     .smiggle-web-hero {
         background-image: url($lib/assets/smg-web-cover.png);
     }
+    /* hero gradients */
+    .hero-gradient-bg {
+        z-index: -1;
+    }
+    .hero-gradient-bg:before, .hero-gradient-bg:after, .hero-gradient-bg div {
+        content: '';
+        position: absolute;
+        filter: blur(10rem);
+        z-index: -1;
+        border-radius: 50%;
+    }
+    .hero-gradient-bg:before {
+        width: 40rem;
+        height: 40rem;
+        top: -20rem;
+        left: -20rem;
+        background: #ECFEFF;
+    }
+    .hero-gradient-bg:after {
+        width: 25rem;
+        height: 25rem;
+        top: -12.5rem;
+        right: -12.5rem;
+        background: #FAE8FF;
+    }
+    .hero-gradient-bg div {
+        width: 15rem;
+        height: 15rem;
+        top: -7.5rem;
+        left: calc(50% - 7.5rem);
+        background: #FFF1F2;
+    }
+    /* dark */
+    .dark .hero-gradient-bg div {background: #3B0764 !important;}
+
     /* small screen images */
     @media (max-width: 640px) { 
         .cs-hero {
@@ -42,6 +77,9 @@
 </style>
 
 <!-- test -->
+<div class="hero-gradient-bg absolute w-full h-80 top-0 left-0">
+    <div></div>
+</div>
 <div class="mt-40 px-5 grid gap-24">
     <div class="container mx-auto md:max-w-3xl">
         <div class="text-xl text-slate-700 leading-normal md:leading-relaxed grid gap-3 dark:text-slate-200">

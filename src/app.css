@@ -38,4 +38,5 @@
         @apply bg-slate-500/10 text-slate-900
     }
 }
-
+.dark .hero-gradient-bg:after {background: #022C22 !important;}
+.dark .hero-gradient-bg:before {background: #4C0519 !important;}
