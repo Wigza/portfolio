@@ -12,6 +12,12 @@
     .cs-hero-04 {background-image: url($lib/assets/cs/cs-dealbuilder-04.png);}
     .cs-hero-05 {background-image: url($lib/assets/cs/cs-testdrive-01.png);}
     .cs-hero-06 {background-image: url($lib/assets/cs/cs-testdrive-02.png);}
+    @media (max-width: 640px) { 
+        .hero {
+            background-size: contain;
+            transform: scale(2);
+        }
+    }
 </style>
 
 <div class="mt-32 px-5 grid gap-20">
@@ -87,22 +93,22 @@
     </div>
         <div class="container mx-auto md:max-w-5xl">
             <div class="grid gap-10">
-                <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+                <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                     <div class="hero cs-hero-01 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
                 </div>
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+            <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-02 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+            <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-03 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-contain bg-center"></div>
             </div>
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+            <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-04 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+            <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-05 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
-            <div class="transition-all h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
+            <div class="transition-all h-[24rem] md:h-[40rem] p-4 overflow-hidden bg-slate-50 border border-slate-300/50 rounded-lg relative dark:bg-slate-800 dark:border-slate-600/50">
                 <div class="hero cs-hero-06 transition-all w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-center"></div>
             </div>
         </div>

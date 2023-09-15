@@ -57,6 +57,18 @@
 
     /* small screen images */
     @media (max-width: 640px) { 
+        .hero-gradient-bg:before {
+            width: 30rem;
+            height: 30rem;
+        }
+        .hero-gradient-bg:after {
+            width: 15rem;
+            height: 15rem;
+            right: 0px;
+        }
+        .hero-gradient-bg div {
+            display: none;
+        }
         .cs-hero {
             background-image: url($lib/assets/cs-hero-cover-sml.png);
         }
