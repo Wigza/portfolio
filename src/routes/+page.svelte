@@ -50,7 +50,7 @@
         height: 15rem;
         top: -7.5rem;
         left: calc(50% - 7.5rem);
-        background: #FFF1F2;
+        background: #f1fff7;
     }
     /* dark */
     .dark .hero-gradient-bg div {background: #3B0764 !important;}
