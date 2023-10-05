@@ -89,7 +89,7 @@
 </style>
 
 <!-- test -->
-<div class="hero-gradient-bg absolute w-full h-80 top-0 left-0">
+<div class="hero-gradient-bg absolute overflow-hidden w-full h-80 top-0 left-0">
     <div></div>
 </div>
 <div class="mt-40 px-5 grid gap-24">
