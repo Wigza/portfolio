@@ -1,5 +1,6 @@
 <script>
     import profile from '../../lib/assets/profile.jpeg';
+    import MoreWork from '../../lib/MoreWork.svelte';
     let linkStyles = 'underline decoration-teal-400 decoration-2 underline-offset-2 transition-all hover:underline-offset-4 hover:decoration-teal-200 hover:text-teal-400';
     import resume from "../../lib/assets/TimPhillips_Resume.pdf"
 
@@ -43,8 +44,9 @@
             <div class="grid gap-3 md:col-span-3">
                 <h3 class="text-4xl font-medium">About</h3>
                 <p class="">My passion for design centres around the individual details, interactions and systems that work in unison to create cohesive experiences. I enjoy working on projects from scratch and also jumping into existing problem spaces.</p>
-                <p class="">I’m currently working as a product designer for <a class={linkStyles} href="https://www.carsales.com.au/">carsales</a>, within their digital retailing team exploring how to bring offline processes within the car buying journey, online within their platform.</p>
-                <p>I’ve previously worked at a start up, <a class={linkStyles} href="https://assembler.app/">Assembler</a>, a compliance focused saas platform, leading their product design and front-end development. Prior to that I worked as product designer within <a class={linkStyles} href="https://www.pwc.com.au/">PwC Australia’s</a> New Ventures unit, a digital business/technology incubator, working within the Automation Engine team.</p>
+                <p class="">I’m currently working as a product designer at <a class={linkStyles} href="https://uptickhq.com/au/" target="_blank">Uptick</a>, within their product team.</p>
+                <p>Previously, I've worked at <a class={linkStyles} href="https://www.carsales.com.au/">carsales</a>, within their digital retailing team exploring integrating offline processes within the car buying journey, online within their platform.</p>
+                <p>I've also worked at a start up, <a class={linkStyles} href="https://assembler.app/">Assembler</a>, a compliance focused saas platform, leading their product design and front-end development. And as product designer within <a class={linkStyles} href="https://www.pwc.com.au/">PwC Australia’s</a> New Ventures unit, a digital business/technology incubator, working within the Automation Engine team.</p>
             </div>
         </div>
     </div>
